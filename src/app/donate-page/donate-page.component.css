@@ -1,0 +1,54 @@
+h1, h2{
+    font-family: 'Balsamiq Sans', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+p{
+    font-family: 'Balsamiq Sans', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.input-group{
+    width: 15%;
+    font-family: 'Balsamiq Sans', cursive;
+    display: flex;
+    justify-content: center;
+    margin-left: 43%;
+    margin-top: 3%;
+    flex-direction: row;
+}
+
+.btn {
+    font-family: 'Balsamiq Sans', cursive;
+    display: flex;
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+    margin-top: 25%;
+}
+
+.btn:active:focus{
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+    box-shadow: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1{
+        margin-left: 15%;
+    }
+
+    p{
+        margin: 10%;
+        margin-left: 15%;
+    }
+
+    .input-group{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+}

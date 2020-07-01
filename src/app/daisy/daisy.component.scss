@@ -1,0 +1,50 @@
+@mixin flexSettings {
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    @include flexSettings();
+    width: 300px;
+    border-radius: 20px;
+}
+
+.daisy-intro{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+    flex-direction: row;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h1{
+    margin-left: 3%;
+    font-size: 100px;
+}
+
+.paragraphs{
+    margin-left: 10%;
+    margin-right: 19%;
+    margin-top: 3%;
+    // font-family: 'moon';
+}
+
+p{
+    margin-top: 2%;
+}
+
+.btn {
+    @include flexSettings();
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+    margin-top: 3%;
+}
+
+.btn {
+    font-family: 'Balsamiq Sans', cursive;
+    display: flex;
+    margin-left: 10%;
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+}

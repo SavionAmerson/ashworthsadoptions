@@ -1,0 +1,28 @@
+.card-img-top, .card {
+    border-radius: 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card, #card-2, #card-3{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn{
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.btn:active:focus{
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+    box-shadow: none;
+}
